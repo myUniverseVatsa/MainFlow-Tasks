@@ -1,0 +1,76 @@
+<HTML>
+    <head>
+        <link rel="icon" type="image/jpg" href="images/Loge.jpg">
+        <title>
+            BMW
+        </title>
+        <style>
+            .top-panel {
+                color: white;
+                width: 100%;
+                padding: 20px;
+                text-align: left;
+                position:fixed;
+                background-color: rgb(65, 57, 57);
+                top: 0;
+                left: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                z-index: 1000;
+            }
+            .top-panel ul {
+                list-style: none;
+                margin: 0;
+                padding: 30;
+                display: flex;
+            }
+            .top-panel ul li {
+                margin-left: 20px;
+                font-size: large;
+            }
+            .full-screen-image {
+                width: 100%;
+                height: 100vh;
+                object-fit: cover;
+            }
+            .overlay-text {
+                position: absolute;
+                top: 80;
+                left: 5%;
+                color: rgb(255, 0, 0);
+                font-size: 30px;
+                font-weight:  bold;
+                text-align: left;
+                z-index: 500;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <img src="C:\Users\HP\Downloads\BMW i52.jpg" alt="BMW Car" class="full-screen-image">
+        <div class="top-panel">
+            <h1>
+                Book Your BMW i-series
+            </h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Book</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="overlay-text">
+            <h1>
+                Introducing you the brand new BMW i-series
+            </h1>
+            <h2>
+                Prebook now
+            </h2>
+        </div>
+    </body>
+</HTML>
